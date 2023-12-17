@@ -1,13 +1,13 @@
 /*This is the CSS page for our final template.*/
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color: #f1e3d3;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
 }
 p {
-	font-family: 'Times New Roman', serif;
+	font-family: 'PT Serif', serif;
 	font-size: 20 px;
 }
 .header {
@@ -16,8 +16,8 @@ p {
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	color: #F4F1DE;
-	background-color: #81b29a;
+	color: #f1e3d3;
+	background-color: #ff521b;
 }
 h4 {
 	font-style: italic;
@@ -26,7 +26,22 @@ h4 {
 }
 h3 {
 	font-size: 30px;
+	font-family: 'PT Serif', serif; 
+	font-style: italic;
 }
+img {
+	float: right;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.fade-in-image{
+	animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 
 /*Don't worry about this section yet*/
@@ -43,11 +58,11 @@ h3 {
  	min-width: 90%;
  	margin-right: 10px;
  }
-}
-img {
-	float: right;
-	margin-right: 5%;
-	margin-left: 5%;
+ img{
+ 	float: none;
+ }
+.footer p {
+	background-color: antiquewhite;
 }
 .right{
 	font-family: 'Times New Roman', serif;
